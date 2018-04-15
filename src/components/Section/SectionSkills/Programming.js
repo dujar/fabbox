@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Projects from './Projects'
 
 const Programming = ({ data, toggle, handleToggle,handleCol }) => {
   return (

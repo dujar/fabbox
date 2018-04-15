@@ -15,7 +15,7 @@ const Container = Component => {
         >
           <div>
             <div
-              className="w-full h-full opacity-25 bg-grey-darker pin z-10 absolute  hover:opacity-50"
+              className="w-full h-full opacity-25 bg-grey-darker pin z-1054 absolute  hover:opacity-50"
               onClick={() =>
                 this.setState(prevState => ({ toggle: !prevState.toggle }))
               }
