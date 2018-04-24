@@ -28,10 +28,10 @@
 }
 
 .erasmus-logo {
-  background-image: url("./components/Section/SectionEducation/erasmus.png");
+  background-image: url("./components/Section/SectionEducation/erasmus-logo.png");
 }
 .mahidol-logo {
-  background-image: url("./components/Section/SectionEducation/muiclogo.png");
+  background-image: url("./components/Section/SectionEducation/mahidol-logo.png");
 }
 .logo {
   width: 100px;
@@ -57,15 +57,18 @@
   background-image: url("./images/Python-logo.png")
 }
 .R-logo {
-  background-image: url("./images/R_logo.png")
+  background-image: url("./images/R-logo.png")
 }
 .JavaScript-logo {
   background-image: url("./images/JavaScript-logo.png")
 }
+.Nuxt-logo {
+  background-image: url("./images/Nuxt-logo.png")
+}
  .bg-fit {
    background-repeat: no-repeat;
    background-size: contain;
-   background-position: center;
+   background-position: bottom;
    width: unset;
    height: inherit;
  }
@@ -77,4 +80,8 @@
 .image-2{
   width: 200px;
   height: 200px;
+}
+
+.animatepues {
+  animation: 'show .5s ease'
 }

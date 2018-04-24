@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import {setObservableConfig} from 'recompose'
+import  rxjxConfig from 'recompose/rxjsObservableConfig'
 import './index.css';
+import rxjsConfig from 'recompose/rxjsObservableConfig';
+
+setObservableConfig(rxjsConfig)
 
 ReactDOM.render(
   <BrowserRouter>

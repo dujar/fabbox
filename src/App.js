@@ -6,8 +6,7 @@ import SectionEducation from './components/Section/SectionEducation/SectionEduca
 class App extends Component {
   render() {
     return (
-      <div>
-        <div id="modal" />
+      <div className="bg-red-lightest">
         <Routing />
       </div>
     );

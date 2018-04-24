@@ -14,26 +14,33 @@ const skills = {
         project1: {
           description: 'news feed with GraphQl',
           link: 'https://github.com/dujar/news_feed_withgraphql.git',
-          web: "",
+          web: '',
           logos: ['GraphQL', 'React']
         },
         project2: {
           description: 'React with Redux: Udacity second project',
           link: 'https://github.com/dujar/project_posts_comments.git',
-          web: "",
+          web: '',
           logos: ['React', 'Redux']
         },
         project3: {
           description: 'React state management: Udacity first project:',
           link: 'https://github.com/dujar/myreads_react.git',
-          web: "",
+          web: '',
           logos: ['React']
         },
         project4: {
-          description: " Nuxt application. Making a react Hacker News.",
-          link: "https://github.com/dujar/Nuxt-hackernews",
-          web: "https://tutorialfromegghead-nuxt-hackernews-ytykafwbmr.now.sh/",
-          logos: ['Nuxt','Vue']
+          description: ' Nuxt application. Making a react Hacker News.',
+          link: 'https://github.com/dujar/Nuxt-hackernews',
+          web: 'https://tutorialfromegghead-nuxt-hackernews-ytykafwbmr.now.sh/',
+          logos: ['Nuxt', 'Vue']
+        },
+        project5: {
+          description:
+            'A note creator parsing markdown to html to string. Adding notes and saving it to local storage',
+          link: 'https://github.com/dujar/vuejs-markdownNotes',
+          web: 'https://dujar.github.io/vuejs-markdownNotes/#/',
+          logos: ['Vue']
         }
       }
     },
@@ -47,7 +54,8 @@ const skills = {
         },
         propject2: {
           description: 'Machine learning course final project',
-          link: 'https://github.com/dujar/machinelearning_coursera/blob/master/machinelearningassignment.md',
+          link:
+            'https://github.com/dujar/machinelearning_coursera/blob/master/machinelearningassignment.md',
           logos: ['Rpackages']
         }
       }

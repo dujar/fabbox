@@ -13,33 +13,37 @@ const Container = Component => {
           animationOut="zoomOutDown"
           isVisible={this.state.toggle}
         >
-          <div>
-            <div
-              className="w-full h-full opacity-25 bg-grey-darker pin z-1054 absolute  hover:opacity-50"
-              onClick={() =>
-                this.setState(prevState => ({ toggle: !prevState.toggle }))
-              }
-            />
+          <div
+            className="
+          flex
+          items-center
+          justify-center
+          fixed
+          pin
+          p-4
+          bg-grey-darker
+          z-10
+          animatepues
+          overflow-hidden
+          overflow-y-auto
+          hover:opacity-50"
+            onClick={() =>
+              this.setState(prevState => ({ toggle: !prevState.toggle }))
+            }
+          >
             <div
               className="
-            flex
-            flex-col
-            justify-center
             fixed
             rounded
-            bg-orange
-            pin-modal
-            md:pin-modal
-            z-1050
-            max-w-lg
+            bg-green-lighter
             border-white
             border-4
             p-2
+            z-20
             shadow-lg
             hover:shadow
             hover:border-blue-light
             hover:border-4
-            opacity-100
             "
             >
               <Component {...this.props} />
@@ -49,8 +53,11 @@ const Container = Component => {
       ) : (
         <div
           onClick={() =>
-            this.setState(prevState => ({ toggle: !prevState.toggle }))
+            this.setState(prevState => ({
+              toggle: !prevState.toggle
+            }))
           }
+          className=""
         >
           <Component {...this.props} />
         </div>

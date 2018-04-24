@@ -1,29 +1,29 @@
 import React, { Component } from 'react';
 import data from './data_skills';
-import withModal from '../../../containers/modal/withModal'
+import withModal from '../../../containers/modal/withModal';
 
-import Projects from './Projects'
-import Programming from './Programming'
+import SideProjects from './SideProjects';
+import Programming from './Programming';
 
 class SectionSkills extends Component {
   state = {
     toggle: '',
-    col: false,
+    col: false
   };
   handleToggle = language => {
     this.setState(prevState => ({
       ...prevState,
       toggle: language,
       col: !prevState.col
-     }));
+    }));
   };
   render() {
-
     return (
-      <div className={`flex flex-col justify-${this.state.col? 'center':'start'} `}>
+      <div className={`flex flex-col justify-center hover:bg-orange-light `}>
         <div className="font-bold font-indie text-xl self-center">
           {this.props.title}
         </div>
+
         <Programming
           data={data}
           toggle={this.state.toggle}
