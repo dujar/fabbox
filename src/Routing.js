@@ -11,7 +11,7 @@ class Routing extends Component {
         <NavBar />
         <Switch>
           {/* <Route path="/" exact component={Home} /> */}
-          <Route path="/about" component={About} />
+          <Route path="/" component={About} />
           {/* <Route path="/projects" component={Projects} /> */}
         </Switch>
       </div>
