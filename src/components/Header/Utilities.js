@@ -1,7 +1,6 @@
 import { Observable } from 'rxjs';
 import React from 'react';
 import EyeViewIcon from 'react-icons/lib/ti/eye-outline';
-import Header from './Header';
 
 import { componentFromStream } from 'recompose';
 

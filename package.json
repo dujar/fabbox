@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "homepage": "https://dujar.github.io/fabriciodujardinprofile/",
+  "engines" : {
+    "node": "8.9.4"
+  },
   "dependencies": {
     "animate.css": "^3.6.1",
     "autoprefixer": "^8.2.0",
@@ -27,6 +30,7 @@
     "build:css": "postcss src/Styles/index.css -o src/index.css",
     "watch:css": "postcss src/Styles/index.css -o src/index.css -w",
     "start": "npm run watch:css & react-scripts start",
+    "dev": "npm run watch:css & react-scripts start",
     "build": "npm run build:css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",

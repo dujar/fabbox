@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import SideProjects from './SideProjects';
 
 const Programming = ({ data, toggle, handleToggle, handleCol }) => {
@@ -7,10 +7,9 @@ const Programming = ({ data, toggle, handleToggle, handleCol }) => {
       {Object.keys(data.languages).map(el => (
         <div
           className="flex flex-row border rounded p-1 hover:border-2 hover:border-blue m-2  flex-no-shrink flex-no-grow flex-1 hover:bg-yellow-dark md:flex-start"
-          keys={el}
+          key={el}
         >
           <div
-            key={el}
             className={`${el}-logo bg-fit image font-bold uppercase font-indie border hover:text-right hover:text-xl logo hover:bg-white hover:shadow-inner`}
           >
             {el}

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import data from './data_skills';
-import withModal from '../../../containers/modal/withModal';
+// import withModal from '../../../containers/modal/withModal';
 
-import SideProjects from './SideProjects';
+// import SideProjects from './SideProjects';
 import Programming from './Programming';
 
 class SectionSkills extends Component {

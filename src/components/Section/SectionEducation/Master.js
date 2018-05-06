@@ -1,11 +1,10 @@
 import React from 'react';
-import withModal from '../../../containers/modal/withModal';
+// import withModal from '../../../containers/modal/withModal';
 
 const Master = props => {
   const {
     institution,
     major,
-    minor,
     thesis,
     location,
     data,

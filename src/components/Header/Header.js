@@ -1,5 +1,5 @@
 import React from 'react';
-import withModal from '../../containers/modal/withModal';
+// import withModal from '../../containers/modal/withModal';
 import picFab from '../../images/fabrice.jpeg';
 
 import { StreamingMessage, StreamNumber } from './Utilities';
@@ -11,6 +11,7 @@ const Header = props => {
         <img
           src={picFab}
           className="h-px-100 hover:rounded hover:border-red hover:border hover:shadow-lg truncate content-center"
+          alt="something"
         />
       </div>
 
@@ -20,7 +21,7 @@ const Header = props => {
           <br />
           <StreamingMessage
             message={'Career Change from Finance to Full Stack Developer'}
-            speed={'200'}
+            speed={200}
           />
         </div>
       </div>

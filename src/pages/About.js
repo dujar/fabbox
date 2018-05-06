@@ -13,7 +13,7 @@ class Home extends Component {
 
         <Animated
           animationIn="bounceInUp"
-          animationInDelay="1000"
+          animationInDelay={1000}
           animationOut="fadeOut"
           isVisible={true}
         >

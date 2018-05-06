@@ -2,8 +2,8 @@ import React from 'react';
 import OpenArrow from 'react-icons/lib/md/keyboard-arrow-down';
 import CloseArrow from 'react-icons/lib/md/keyboard-arrow-up';
 import data from './data';
-import withModal from '../../containers/modal/withModal';
-import { StreamingMessage } from '../Header/Utilities';
+// import withModal from '../../containers/modal/withModal';
+// import { StreamingMessage } from '../Header/Utilities';
 
 class ElevatorPitch extends React.Component {
   state = {
@@ -14,7 +14,7 @@ class ElevatorPitch extends React.Component {
       <div className="relative rounded border mb-1 shadow-lg p-2 max-w-px-450 min-w-px-350 bg-orange-dark">
         {Object.keys(data).map((el, i) => {
           return (
-            <div>
+            <div key={i}>
               <div className="font-merri capitalize font-semi-bold">
                 {data[el].question}
                 {!this.state.open[i] ? (

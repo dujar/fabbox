@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import FabGitHub from 'react-icons/lib/fa/github';
-import FabHomeIcon from 'react-icons/lib/ti/home-outline';
-import CVDownloadIcon from 'react-icons/lib/io/android-download';
+// import CVDownloadIcon from 'react-icons/lib/io/android-download';
 import ReactTooltip from 'react-tooltip';
-import ProjectIcon from 'react-icons/lib/fa/keyboard-o';
+// import ProjectIcon from 'react-icons/lib/fa/keyboard-o';
 const niceHover = 'hover:border-blue hover:rounded hover:border-2 truncate';
 const NavBar = props => {
   return (
@@ -13,18 +12,6 @@ const NavBar = props => {
         'flex flex-row justify-around mb-1 shadow min-w-full truncate bg-blue-lightest'
       }
     >
-      {/* <div className={niceHover} data-tip="supposedly my home :)">
-        <ReactTooltip />
-        <NavLink to="/">
-          <FabHomeIcon size={30} />
-        </NavLink>
-      </div>
-      <div className={niceHover} data-tip="some projects)">
-        <ReactTooltip />
-        <NavLink to="/projects">
-          <ProjectIcon size={30} />
-        </NavLink>
-      </div> */}
       <div className={niceHover} data-tip="a few words to get to know me.">
         <ReactTooltip />
         <NavLink to="/about">About</NavLink>

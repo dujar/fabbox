@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { withRouter, Route, Switch } from 'react-router';
-import Home from './pages/Home';
+// import Home from './pages/Home';
 import About from './pages/About';
-import Projects from './pages/Projects';
+// import Projects from './pages/Projects';
 import NavBar from './components/NavBar/NavBar';
 class Routing extends Component {
   render() {
