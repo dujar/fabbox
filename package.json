@@ -2,8 +2,8 @@
   "name": "cv_fabricio_react",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://dujar.github.io/fabriciodujardinprofile/",
-  "engines" : {
+  "homepage": "https://dujar.github.io/",
+  "engines": {
     "node": "8.9.4"
   },
   "dependencies": {
@@ -35,7 +35,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build"
   },
   "devDependencies": {
     "gh-pages": "^1.1.0"
